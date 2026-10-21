@@ -173,7 +173,7 @@ abstract class AbstractPoint extends AbstractGeometry
      * @return array
      * @throws InvalidValueException
      */
-    protected function validateArguments(array $argv = null)
+    protected function validateArguments(?array $argv = null)
     {
         $argc = count($argv);
 
